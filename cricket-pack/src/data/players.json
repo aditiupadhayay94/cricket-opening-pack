@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "role": "BAT",
+    "team": "India",
+    "rating": 95,
+    "tier": "Legend",
+    "stats": { "runs": 12000, "avg": 59 },
+    "photo": "/assets/kohli.png"
+  },
+  {
+    "id": 2,
+    "name": "Jasprit Bumrah",
+    "role": "BOWL",
+    "team": "India",
+    "rating": 92,
+    "tier": "Epic",
+    "stats": { "wkts": 200, "econ": 4.9 },
+    "photo": "/assets/bumrah.png"
+  },
+  {
+    "id": 3,
+    "name": "Steve Smith",
+    "role": "BAT",
+    "team": "Australia",
+    "rating": 93,
+    "tier": "Legend",
+    "stats": { "runs": 8500, "avg": 57 },
+    "photo": "/assets/smith.png"
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "role": "AR",
+    "team": "England",
+    "rating": 91,
+    "tier": "Epic",
+    "stats": { "runs": 4200, "wkts": 200 },
+    "photo": "/assets/stokes.png"
+  },
+  {
+    "id": 5,
+    "name": "Sachin Tendulkar",
+    "role": "BAT",
+    "team": "India",
+    "rating": 90,
+    "tier": "Legend",
+    "stats": { "runs": 6000, "avg": 56 },
+    "photo": "/assets/sachin.png"
+  },
+  {
+    "id": 6,
+    "name": "Kane Williamson",
+    "role": "BAT",
+    "team": "New Zealand",
+    "rating": 92,
+    "tier": "Legend",
+    "stats": { "runs": 7200, "avg": 54 },
+    "photo": "/assets/wiliam.png"
+  },
+  {
+    "id": 7,
+    "name": "Trent Boult",
+    "role": "BOWL",
+    "team": "New Zealand",
+    "rating": 90,
+    "tier": "Epic",
+    "stats": { "wkts": 180, "econ": 4.8 },
+    "photo": "/assets/boult.png"
+  },
+  {
+    "id": 8,
+    "name": "David Warner",
+    "role": "BAT",
+    "team": "Australia",
+    "rating": 91,
+    "tier": "Legend",
+    "stats": { "runs": 7800, "avg": 48 },
+    "photo": "/assets/warner.png"
+  },
+  {
+    "id": 9,
+    "name": "Moeen Ali",
+    "role": "AR",
+    "team": "England",
+    "rating": 88,
+    "tier": "Epic",
+    "stats": { "runs": 3200, "wkts": 150 },
+    "photo": "/assets/moeen.png"
+  },
+  {
+    "id": 10,
+    "name": "Shakib Al Hasan",
+    "role": "AR",
+    "team": "Bangladesh",
+    "rating": 93,
+    "tier": "Legend",
+    "stats": { "runs": 6500, "wkts": 250 },
+    "photo": "/assets/shakib.png"
+  },
+  {
+    "id": 11,
+    "name": "Quinton de Kock",
+    "role": "WK",
+    "team": "South Africa",
+    "rating": 90,
+    "tier": "Epic",
+    "stats": { "runs": 5000, "avg": 50 },
+    "photo": "/assets/kock.png"
+  },
+  {
+    "id": 12,
+    "name": "Pat Cummins",
+    "role": "BOWL",
+    "team": "Australia",
+    "rating": 91,
+    "tier": "Epic",
+    "stats": { "wkts": 160, "econ": 4.7 },
+    "photo": "/assets/cummins.png"
+  },
+  {
+    "id": 13,
+    "name": "Andre Russell",
+    "role": "AR",
+    "team": "West Indies",
+    "rating": 89,
+    "tier": "Epic",
+    "stats": { "runs": 3200, "wkts": 100 },
+    "photo": "/assets/russell.png"
+  },
+  {
+    "id": 14,
+    "name": "Rashid Khan",
+    "role": "BOWL",
+    "team": "Afghanistan",
+    "rating": 92,
+    "tier": "Epic",
+    "stats": { "wkts": 180, "econ": 4.1 },
+    "photo": "/assets/rashid.png"
+  },
+  {
+    "id": 15,
+    "name": "Hardik Pandya",
+    "role": "AR",
+    "team": "India",
+    "rating": 85,
+    "tier": "Rare",
+    "stats": { "runs": 1800, "avg": 34 },
+    "photo": "/assets/Hard.png"
+  }
+]

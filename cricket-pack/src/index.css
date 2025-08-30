@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes rotateBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-borderGlow {
+  position: relative;
+  border-radius: 0.75rem; /* rounded-xl */
+  padding: 2px; /* border thickness */
+  background: linear-gradient(270deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
+  background-size: 400% 400%;
+  animation: rotateBorder 6s linear infinite;
+}
+.card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  background: #111;
+  color: white;
+  z-index: 1;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ff00ff, #00ffff, #ff00ff);
+  background-size: 300% 300%;
+  animation: shine 5s linear infinite;
+  z-index: -1;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes borderGlow {
+  0% { box-shadow: 0 0 10px rgba(24, 197, 5, 0.3), 0 0 20px rgba(51, 236, 57, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(5, 237, 36, 0.5), 0 0 40px rgba(1, 123, 18, 0.6); }
+  100% { box-shadow: 0 0 10px rgba(2, 146, 40, 0.3), 0 0 20px rgba(10, 214, 10, 0.4); }
+}
+
+.animate-borderGlow {
+  animation: borderGlow 3s infinite alternate;
+}
+
