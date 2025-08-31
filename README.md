@@ -1,15 +1,32 @@
-
+Cricket Card Pack Opening
 This is a frontend-only web application built for cricket fans, providing a fun and engaging card collection experience. The game allows users to open different 'packs' to reveal random cricket player cards and manage their growing collection.
 
 The project is built with React, leveraging modern libraries like Framer Motion for animations and Zustand for state management.
-You can check live on:https://cricket-opening-pack.vercel.app/
+
+Setup & Local Installation
+To get a local copy of this project up and running, follow these steps.
+
+Clone the repository:
+
+git clone [https://github.com/aditiupadhayay94/cricket-opening-pack.git](https://github.com/aditiupadhayay94/cricket-opening-pack.git)
+cd cricket-opening-pack
+
+Install dependencies:
+
+npm install
+
+Run the application:
+
+npm run dev
+
+The application will now be running on https://cricket-opening-pack.vercel.app/
 
 Project Logic (Frontend)
 This application is designed to run entirely in the browser without a backend. All game logic, data management, and visual effects are handled on the frontend.
 
 Card Data: Player card data, including names, ratings, and roles (BAT, BOWL, WK, ALLR), is stored in a JavaScript file. This serves as the static "database" for the game.
 
-Pack Opening: When a user clicks a pack, the application uses a random selection algorithm to choose a set of player cards from the master list. The pack opening and card reveal animations are powered by Framer Motion, creating a smooth and satisfying visual effect.
+RNG (Random Selection) Logic: When a user clicks a pack, the application uses a random selection algorithm to choose a set of player cards from the master list. This logic is powered by Math.random(), which selects players based on a predefined probability, ensuring that certain players or card tiers are rarer than others.
 
 State Management: Zustand is used for efficient and centralized state management. It handles key game data, such as the user's current coins and their complete card collection.
 
@@ -34,6 +51,13 @@ Framer Motion: For all UI animations and transitions.
 Zustand: A state management solution for handling game data.
 
 Tailwind CSS: A utility-first CSS framework for styling.
+
+Asset Credits
+Confetti: The confetti effect is powered by the canvas-confetti library.
+
+Audio: The pack-opening sound effect is sourced from a local open-pack.mp3 file.
+
+Player Cards: Player card images are static assets stored locally in the project.
 
 Future Improvements
 Data Persistence: Implement Zustand's persist middleware to save user data to Local Storage, allowing progress to be retained across browser sessions.
